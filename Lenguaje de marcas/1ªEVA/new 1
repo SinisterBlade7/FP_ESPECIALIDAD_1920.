@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang= "es">
+	<head>
+		<title>Mi Primera Pagina Web</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body>
+		<a id="hiper"> </a>
+		<p>El niño es un león</p>
+		
+		<h1>Caramelos Paco</h1>
+		<h2>hasta luego man</h2>
+		
+		<abbr title="Unknown Flying Object">UFO</abbr>
+		<p>El <dfn>HTML</dfn> es un lenguaje de marcado para hipertextos.</p> 
+
+		
+	</body>
+</html>

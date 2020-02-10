@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang= "es">
+	<head>
+	
+		<title> El Corte Perfecto</title>
+		<link rel="stylesheet" type="text/css" href="C:\Users\danie\Desktop\Lenguaje de marcas\css">
+	</head>
+
+	<body id="cuepo">
+		<h1> INSCRIPCIÓN DE CLIENTES</h1>
+		
+		<table border="1">
+			
+			
+		<tr>   
+		<th rowspan="2">Tipo de industria</th>  
+		<th colspan="3">  Orden de facturacion en</th>   
+		</tr> 
+		
+		<tr>
+		<td>España</td>
+		<td>Europa</td>
+		<td>America</td>
+		</tr>
+		
+		<tr>
+		<td>Textil</td>
+		<td>1</td>
+		<td>3</td>
+		<td>5</td>
+		</tr>
+		
+		</table>
+	
+		<br></br>
+		<fieldset>
+		<h2>Datos personales</h2>
+		<input type="Text" name="Nombre"   placeholder="Nombre"> 	<br/>
+		<input type="Text" name="Apellidos"  placeholder="Apellidos">	<br/>
+		
+		<h3>Continente</h3>
+			<input type="Radio" name="Continente" value="Europa"> Europa <br/>
+			<input type="Radio" name="Continente" value="America"> America <br/>
+		
+		<br/>
+		
+		<input type="text" name="País" placeholder="Pais">		<br/>
+		<input type="Text" name="Ciudad" placeholder="Ciudad">	<br/>
+		<input type="email" name="Email" placeholder="Email">	<br/>
+		</fieldset>
+		
+		<br/>
+		<br/>
+		<fieldset>
+		<h2>Gustos Textiles</h2>
+		
+		<h3>Preferencia de ropa</h3>
+		
+			<input type="Radio" name="pref_ropa" value="Masculina"> Masculina <br/>
+			<input type="Radio" name="pref_ropa" value="Femenina"> Femenina <br/>
+			<input type="Radio" name="pref_ropa" value="Unisex"> Unisex 
+			
+		
+		<br/>
+		<br/>
+		
+		<h3>Tallas usadas en el hogar</h3>
+		
+			 <input type="checkbox" name="XS" value="se_usa"> XS<br/>
+			 <input type="checkbox" name="S" value="se_usa"> S<br/>
+			 <input type="checkbox" name="M" value="se_usa"> M<br/>
+			 <input type="checkbox" name="L" value="se_usa"> L<br/>
+			 <input type="checkbox" name="XL" value="se_usa"> XL<br/>
+			 <input type="checkbox" name="XXL" value="se_usa"> XXL<br/>
+			  <input type="checkbox" name="XXXL" value="se_usa"> XXXL<br/>
+		 
+			 
+		<br/>
+		<br/>
+		<h3>Prendas preferidas</h3>	 
+			 <select>
+				<option> Pantalones </option>
+				<option> Faldas </option>
+				<option> Blusas </option>
+				<option> Cazadoras </option>
+				<option> Abrigos </option>
+			 </select>
+		</fieldset>	 
+		
+		<br/>
+		<br/>
+		
+		<fieldset>
+		<h2>Envio</h2>			
+			
+		<select name="pais" size="8">
+		<optgroup label="Recogida en mano"> 
+		<option value="tienda" selected>En tienda</option> 
+		<option value="correos">En oficina de correos</option> 
+		</optgroup> 
+		<optgroup label="Envío a Domicilio">
+		<option value="avion">Por avion</option>
+		<option value="barco">Por barco</option> 
+		<option value="tren">Por tren </option>
+		<option value="camion">Por camion </option>
+		</optgroup> 
+		</select> 
+ 	 </fieldset>
+		<br/>	<br/>
+		
+		<fieldset>
+		<p>Tus Comentarios: </p>	
+		<textarea name="Observaciones" rows="30" cols="90"></textarea> 
+	 
+		<form method = ”post” action="#"	name="Inscripcion de clientes" > </form>	
+		</fieldset>
+		
+		<br/>	<br/>
+		
+		<input type="reset" value="Borrar Datos del Formulario">   <!--No funciona el boton reset por razones que desconozco-->
+		<br/>
+		<input type="submit" value=" Enviar Datos a Central">
+			 
+			 
+			 
+			 
+			 
+			 
+	
+	</body>
+</html>

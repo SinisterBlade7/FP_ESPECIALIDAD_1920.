@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title> prueba 2 </title>
+	<meta charset="UTF-8" />
+</head>
+	<body>
+		<p>Buenos dias compitrueno </p>
+		<h1>leknv</h1>
+		<hr> </hr>
+		<a id="lista"> </a>
+		<h2> Hagamos una lista de asignaturas</h2>
+		<ul> 
+			<li>		Marcas	
+				<ol>
+					<li>	dia uno			</li>
+					<li>	dia dos			</li>
+					<li>	dia tres		</li>
+				</ol>
+			</li>
+			<li>		Fol		</li>
+			<li>		Sistemas		</li>
+		</ul>
+		<hr> </hr>
+		<hr> </hr>
+		<br> </br> <br> </br> <br> </br> <br> </br> <br> </br> <br> </br> <br> </br> <br> </br> <br> </br> <br> </br> <br> </br>
+		<h2> Hagamos definiciones</h2>
+		<dl>
+			<dt>termino 1</dt>
+				<dd>definicion1 </dd>
+			<dt>termino 2</dt>
+				<dd>definicion2 </dd>
+			<dt>termino 3</dt>
+				<dd>definicion3 </dd>
+		</dl>
+		<hr> </hr>
+		<hr> </hr>
+		<h2>Primer hipervínculo</h2>
+		
+		<a href="#lista">lista de asiganturas</a> 
+		<br></br>
+		<br></br>
+		<br></br>	
+		<br></br>
+		<br></br>
+		<br></br>
+		<img src=
+		
+		
+		
+	</body>

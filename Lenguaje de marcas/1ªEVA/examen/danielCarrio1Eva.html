@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang= "es">
+<head>
+		
+		<title>Lenguaje de Marcas</title>
+		<meta charset="UTF-8" />
+		<link href="estilos/style2.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+	<h1>Examen 1ª Evaluación (IES Clara del Rey) <h1>
+	<br/>
+	<table id="tabla">
+		<tr> <th>Animal</th>	<th>Nombre vulgar</th>	<th>Habitat</th>    <th>Alimentacion</th>	<th>Extincion</th> 	<th>Salvaje</th>  </tr>
+		<tr> <th><img	src="imagenes/leon.jpg" 	height="150"	width="200"</th>	<th><a href="https://es.wikipedia.org/wiki/Panthera_leo">León</a>  </th>		<th>Sabana Africa Asia</th>    <th>Carnivoro</th>	<th>Si, el leon africano</th> 	<th>Si</th>  </tr>
+		<tr> <th><img	src="imagenes/avestruz.jpg"	height="320"	width="200"</th>	<th>	<a href="https://es.wikipedia.org/wiki/Struthio_camelus">Avestruz</a>  </th>		<th>Africa</th>    <th>Herbívoro e insectívoro</th>	<th>Si, el avestruz andino</th> 	<th>Si</th>  </tr>
+		<tr> <th><img	src="imagenes/llama.jpg"	height="250"	width="200"</th>	<th>	<a href="https://es.wikipedia.org/wiki/Lama_glama">Llama</a>	</th>		<th>Tierras altas de los Andes y el altiplano peruano a 4000 sobre el nivel del mar</th>    <th>Herbívoro</th>	<th>No</th> 	<th>No</th>  </tr>
+	</table>
+	<br/>
+	
+	<form  method = ”post” action="#"	name="form01" id="form01">
+	
+		<fieldset name="Identificacion">
+			<legend>Identificacion</legend>
+			<p>Usuario:<input type="text" name="nombre"  /> <br/>
+			Contraseña:<input type="password" name="password" /> </p> 
+		</fieldset>
+	<br/>
+		<fieldset name="Datos personales">
+			<legend>Datos personales</legend>
+			<p>Nombre: <input type="text" name="Nombre_dp" maxlength="40">  Apellidos: <input type="text" name="Apellidos" maxlength="80"></p>
+			<p>Email: <input type="email" name="email"></p>
+			<p>Ciudad: <input type="text" name="Ciudad"    id="Ciudad" list="ciudad"/> </p>
+		
+			<datalist id="ciudad">
+			<option value="Madrid" >  
+			<option value="Barcelona"> 
+			<option value="Sevilla" >  
+			<option value="La Coruña"> 	
+			</datalist> 
+		</fieldset>
+		<br/>
+		<fieldset name="Datos de informacion">
+			<legend>Datos de información</legend>
+			<h3>APADRINA<h3>
+			 <input type="radio" name="apadrina" value="leon">A un león<br/>
+			 <input type="radio" name="apadrina" value="avestruz">A un avestruz<br/>  
+			 <input type="radio" name="apadrina" value="llama" > A una llama
+		
+		<br/>
+		<br/>
+		
+			<h3>RECIBIR INFORMACION SOBRE<h3>
+			 <input type="checkbox" name="león" value="informacion">León
+			 <input type="checkbox" name="avestruz" value="informacion">Avestruz 
+			 <input type="checkbox" name="llama" value="informacion"> Llama
+			<input type="checkbox" name="Todos" value="informacion">Todos ellos<br/> 
+			
+			<input type="reset" value="Borrar Datos del Formulario">
+		<br/>
+		<input type="submit" value=" Enviar Datos a Central">
+	
+		</fieldset>
+	
+	
+	
+	</form>
+	
+	
+	</body>

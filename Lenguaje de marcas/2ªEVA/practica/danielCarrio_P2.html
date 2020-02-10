@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang= "es">
+<head>
+		<title>Figuras de acción</title>
+		<meta charset="UTF-8" />
+		<link href="danielCarrio_P2.css" rel="stylesheet" type="text/css">
+	</head>
+	
+<body>
+	<p id="titulo">Figuras de acción <p>
+	<br/>
+	<table id="tabla">
+		<tr> <th class="th">Previsualización</th>	<th class="th">Info</th>	<th class="th">Dimensiones</th>  <th class="th">Precio</th><th class="th">Características</th></tr>
+		<tr > <td><img	src="danielCarrio_imagen1.jpg" 	height="300"	width="200"</td>	<td><a href="https://www.amazon.es/DC-Justice-League-Juguetes-GDT51/dp/B07GSS4GW5/ref=sr_1_5?adgrpid=55799344283&gclid=EAIaIQobChMI-_i03b6X5wIVSEHTCh1pJg5hEAAYASAAEgKpH_D_BwE&hvadid=275468274188&hvdev=c&hvlocphy=20269&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=17991081596261837479&hvtargid=kwd-310342117420&hydadcr=13147_1805751&keywords=figuras+de+accion&qid=1579705816&sr=8-5">DC Justice League </a>  </td>		<td>250*200mm</td>    <td>25 euros</td>  <td> Once puntos de articulación </td>	  </tr>
+		<tr> <td><img	src="danielCarrio_imagen2.jpg"	height="300"	width="200"</td>	<td>	<a href="https://www.amazon.es/Predator-Ultimate-8-Inch-Action-Figure/dp/B07G9JZLMQ/ref=sr_1_13?adgrpid=55799344283&gclid=EAIaIQobChMI-_i03b6X5wIVSEHTCh1pJg5hEAAYASAAEgKpH_D_BwE&hvadid=275468274188&hvdev=c&hvlocphy=20269&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=17991081596261837479&hvtargid=kwd-310342117420&hydadcr=13147_1805751&keywords=figuras+de+accion&qid=1579707865&sr=8-13">The Fugitve Figura Ultimate Predator</a>  </td>		<td>320*200mm</td>    <td>50 euros</td> <td>Desmontable y personalizable  </td>	  </tr>
+		<tr> <td><img	src="danielCarrio_imagen3.jpg"	height="300"	width="200"</td>	<td>	<a href="https://www.amazon.es/Sockers-Lionel-Figura-acci%C3%B3n-BanboToys/dp/B07Y3CHM95/ref=sr_1_19?adgrpid=55799344283&gclid=EAIaIQobChMI-_i03b6X5wIVSEHTCh1pJg5hEAAYASAAEgKpH_D_BwE&hvadid=275468274188&hvdev=c&hvlocphy=20269&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=17991081596261837479&hvtargid=kwd-310342117420&hydadcr=13147_1805751&keywords=figuras+de+accion&qid=1579707865&sr=8-19">Lionel Figura de acción</a>	</td>		<td>300*200mm</td>    <td>35 euros</td> <td>El muñeco de Lionel Messi más realista </td>	  </tr>
+	</table>
+	</br>
+	<form  method = ”post” action="#"	name="form01" id="form01">
+		<fieldset name="Envío" class="envio">
+			<p id="envio1">Envio</p>
+			 <input type="checkbox" name="figura" value="1">DC Justice League
+			 </br>
+			 <input type="checkbox" name="figura" value="2">The Fugitve Figura Ultimate Predator
+			 </br>
+			 <input type="checkbox" name="figura" value="3"> Lionel Figura de acción
+		</fieldset>
+	</br>
+		<fieldset name="Identificación" class="identificacion">
+			<p id="identificacion1">Identificación</p>
+			<p>Usuario:<input type="text" name="nombre"  /> <br/>
+			Contraseña:<input type="password" name="password" /> </p> 
+		</fieldset>
+	<br/>
+		<fieldset name="Datos personales" class="datos">
+			<p id="datos1">Datos personales<p>
+			<p>Nombre: <input type="text" name="Nombre_dp" maxlength="40">  Apellidos: <input type="text" name="Apellidos" maxlength="80"></p>
+			<p>Email: <input type="email" name="email"></p>
+			<p>Ciudad: <input type="text" name="Ciudad"    id="Ciudad" list="ciudad"/> </p>
+			
+			<datalist id="ciudad">
+			<option value="Madrid" >  
+			<option value="Barcelona"> 
+			<option value="Sevilla" >  
+			<option value="La Coruña"> 	
+			</datalist> 
+		</fieldset>
+		<br/>
+		<div id="botones">
+	<input type="submit" value="Solicitar envio" id="submit">
+	<input type="reset" value="Cancelar envio" id="reset">
+	</div>
+	</form>
+	
+</body>	

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang= "es">
+	<head>
+		<title>Hipervinculo imagen</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body>
+		<h1>Ejercicio Hipervinculos</h1>
+		   <map name="mapa1">
+		<area shape="circle" coords="317,78,85" href="https://es.wikipedia.org/wiki/Amarillo">
+		<area shape="circle" coords="153,154,85" href="https://es.wikipedia.org/wiki/Verde">
+		<area shape="circle" coords="486,154,85" href="https://es.wikipedia.org/wiki/Naranja">
+		<area shape="circle" coords="555,318,85" href="https://es.wikipedia.org/wiki/Rojo">
+		<area shape="circle" coords="79,319,85" href="https://es.wikipedia.org/wiki/Celeste_(color)">
+		<area shape="circle" coords="155,484,85" href="https://es.wikipedia.org/wiki/Azul">
+		<area shape="circle" coords="491,488,85" href="https://es.wikipedia.org/wiki/Rosa">
+		<area shape="circle" coords="319,556,85" href="https://es.wikipedia.org/wiki/Violeta">
+		</map>,
+		<img	src="imagenes/leon.jpg" usemap="#mapa1"	ismap="#mapa1"	height="640"	width="640"
+		
+	</body>
+</html>

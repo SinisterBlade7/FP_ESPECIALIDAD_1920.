@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang= "es">
+<head>
+		<title>La carta veloz S.L.</title>
+		<meta charset="UTF-8" />
+	</head>
+	<body>
+	<h1>La carta veloz</h1>
+	
+	<img	src="sobres\sobres.jpg" usemap="#mapa1"	ismap="#mapa1"	height="150"	width="150">
+	<br/>
+	<h2>Tarifas</h2>
+	<table border="1">
+			
+		<tr>   
+			<th>Producto</th>  
+			<th>España</th>   
+			<th>Resto Europa</th>  
+			<th>America</th>   
+			<th>Asia</th>  
+			<th>Oceania</th>   
+			<th>África</th>  
+		</tr> 
+		
+		<tr>
+			<td>Normal</td>
+			<td>1,20</td>
+			<td>1,50</td>
+			<td>2,00</td>
+			<td>2,15</td>
+			<td>2,30</td>
+			<td>2,15</td>
+		</tr>
+		
+		<tr>
+			<td>Certificada</td>
+			<td>2,20</td>
+			<td>2,50</td>
+			<td>3,00</td>
+			<td>3,15</td>
+			<td>3,30</td>
+			<td>3,15</td>
+		</tr>
+		
+		<tr>
+			<td>Urgente</td>
+			<td>3,00</td>
+			<td>3,50</td>
+			<td>4,00</td>
+			<td>5,00</td>
+			<td>6,00</td>
+			<td>5,00</td>
+		</tr>
+		
+	</table>
+	<br/> <br/>
+	<h3>Deberá especificar Producto, Destino, Dirección de Origen e Email. En caso de Destino distinto de los reflejados tendrá que teclear 10,00 en Tarifa Extra</h3>
+	<br/>
+	<section>
+			<form  method = ”post” action="#"	name="Tarifas">
+	<p>Producto:
+		
+				<select autofocus>
+						<option> Normal </option>
+						<option> Certificada </option>
+						<option> Urgente </option>
+				 </select>
+	</p>			 
+		
+		<p>Destino*: <input type="text" name="Destino"    id="Destino" list="destino"/> </p>
+			
+		
+		<p>Tarifa Extra: <input type="number" name="Tarifa"	step="0.01" min="0" max="10"	/></p>
+			
+		
+		<p>Dirección Origen*: <input type="text" name="Direccion de origen" maxlength="40"></p>
+			
+		
+		<p>Email*: <input type="email" name="email"></p>
+		
+		
+		<datalist id="destino">
+			<option value="España" >  
+			<option value="Resto Europa"> 
+			<option value="América" >  
+			<option value="Asia"> 
+			<option value="Oceanía" >  
+			<option value="África"> 	
+		</datalist> 
+		
+		<input type="reset" value="Borrar Datos del Formulario">
+		<br/>
+		<input type="submit" value=" Enviar Datos a Central">
+		
+		
+		
+			</form>
+		</section>
+	
+	</body>
