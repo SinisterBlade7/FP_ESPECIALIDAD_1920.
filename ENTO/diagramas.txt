@@ -1,0 +1,21 @@
+1-->
+clase:persona
+atributos:nombre,apellido1,apellido2,fecha_nac,sexo,dni
+
+2-->
+persona--se casa con--persona(0,1)-(0,1)
+
+persona--es hijo de--persona(2,2),(0,n)
+
+3-->
+clase=punto
+	atributo=nombre,codigo,coordenada_x,coordena_y.
+clase=linea
+	atributo=nombre,codigo
+linea--definida por(agregacion)--clase-punto(2,n),(1,n)
+clase=area
+	atributo=nombre,codigo
+area--definida por(agregacion)--clase-punto(3,n),(1,n)
+
+4-->
+	
