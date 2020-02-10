@@ -1,0 +1,84 @@
+Ejemplo liquidacion o finiquito:
+Alta inicial: 3/12/2006
+extincion: 23/1/2020
+
+Retribuciones:
+Salario base-->1300/mes
+2 pagas extraordinarias anuales por importe del 1300 cada una.
+30 dias naturales de vacaciones en proporción a lo trabajado en el año natural y retribuidas a salario base.
+
+Fiquito:
+1->Enero (23 dias)
+S.base= 1300 / 31dias * 23dias = 964.52eu
+
+2-->Pagas extraordinarias:
+2.1-->Devengo anual--Verano:1 Julio/30 junio(365 dias o 366 si es bisiesto)
+		   --Navidad: 1enero/31 diciembre(365 dias o 366 si es bisiesto)
+
+Verano-->1 julio 2019/23 enero 2020(31+31+30+31+30+31+23)=207dias
+366dias-->1300eu
+207-->735.25eu 
+Navidad-->1 enero/23 enero 2020=23dias
+366dias-->1300
+23dias-->81.69eu
+
+2.2d-->Devengo semestral:
+Verano:1 enero/30 junio(181 dias o 182 si es bisiesto)
+Verano:1 julio/31 diciembre(184)
+Verano--> 1enero/23enero=23dias
+182 dias-->1300
+23dias-->164.29eu
+Navidad-->No le corresponde
+
+2.3-->Prorrateadas a lo largo de los 12 meses
+2*1300/12meses = 216.67eu/mes
+216.67/31*23dias=81.9eu
+
+
+3-->Vacaciones
+1 enero/301 diciembre(365 o 366)
+1enero/23enero=23dias
+
+366dias-->30dias vacaciones
+23dias-->1.89dias de vacaciones
+
+30dias-->1300
+1.89dias-->81.90
+
+3.2-->Ha disfrutado 1dic de vacaciones en 2020
+366dias-->30 dias de vacaciones
+23 dias-->1.89dias-->1dias ya disfrutado:0.89dias de vacaciones
+
+30dias de vacaciones-->1300
+0.89-->38.57eu
+
+
+4.0-->Imdemnizacion: 20dias * año, maximo 12 mensualidades(360dias)
+Imndemnizacion: numero de dias de indemnizacion * antiguedad en la empresa en la empresa * salario diario.
+	      : antiguedad:2/12/06-->23/01/2020
+años completos+meses completos+periodos+1mes= 13años,1 mes y 21 dias-->13 años,2 meses.
+
+Salario diario: Salario bruto anual/365dias=((Salario anual)*12meses+importe anual de pagas extras)/365 dias
+Salario=(1300eu/mes*12meses+2*1300)/365= 49.86eu/dia.
+
+Indemnizacion:20 dias*(13+2/12)*49.86eu/dia= 13129.8=
+Maximo=360dias*49.86ue/dia= (17949.6eu)no
+*(13129.8<17949.6eu)*No lo corresponde puesto que no excede el máximo.
+
+
+
+
+EJERCICIO 1:
+
+Alta inicial: 28/3/2010
+extincion: 17/1/2020
+
+Retribuciones:
+Salario base-->1450/mes
+2 pagas extraordinarias anuales por importe del 1300 cada una.
+30 dias naturales de vacaciones en proporción a lo trabajado en el año natural y retribuidas a salario base.
+
+
+
+
+
