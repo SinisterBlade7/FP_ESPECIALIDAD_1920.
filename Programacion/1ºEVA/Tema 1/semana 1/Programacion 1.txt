@@ -1,0 +1,45 @@
+Algoritmo= secuencia ordenada de pasos que resuelven un problema en un tiempo finito.
+-Contiene inrucciones concretas.
+-Debene terminar, es decir, son finitos.
+-Todos sus pasos son simples y estan ordenados.
+
+Programa= algoritmo traducido a un lenguaje de programación.
+
+Generaciones de Lenguajes:
+1-- Codigo maquina
+2--Ensamblador-- COBOL1959
+3--Java,C
+4--Prog orientada a objetos.
+5--IA
+
+Tipos de datos:
+-Se caracterian por:
+--Dominio:0 to 9
+--Representacion: Binario=01,10,001.
+--Operación: +,*,/,-,%=módulo--división resulta igual o distinto de 0.
+
+Pseudocodigo:
+-Preciso.
+-Definido.
+-Finito.
+-Independiente.
+
+Tarea: Caracteristicas y finalidad de: Java,C, C++, Python
+C++-->>Compilado--- No es necesario para un programa en C++ tener estructura---Los programadores tienen que hacerse cargo de liberar la memoria no utilizada---Una estructura puede heredar directamente de otra estructura---Los programadores pueden usar apuntadores.
+Java-->>Interpretado---Dota de funcionalidad a la pagina web---Maneja la memoria automáticamente---Una estructura no puede heredar directamente de otra estructura. Se da soporte a la herencia múltiple usando interfaces---Los programadores no pueden usar apuntadores. Los apuntadores se usan internamente---Garbaje Collector
+ C:
+Python:Interpretado---es imperativo---es funcional---orientado a objetos--tipado dinámico.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
