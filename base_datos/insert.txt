@@ -1,0 +1,22 @@
+update emple set(salario,oficio)=
+(select salario,oficio from emple where apellido='GIL')
+where apellido='ARROYO';
+
+
+
+delete depart
+where deptno not in
+(select deptno from emple);
+
+
+update  --set--
+
+commit
+--
+--
+savepoint uno;
+--
+savepoint dos;
+--
+rollback to savepoint uno;
+
